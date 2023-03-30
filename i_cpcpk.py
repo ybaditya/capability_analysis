@@ -20,7 +20,7 @@ def Cpk(x, usl, lsl):
     return Cpk
 
 
-st.set_page_config(page_title='IGP Capability Analysis')
+st.set_page_config(page_title='Capability Analysis')
 st.title('_i_-Capability Analysis')
 st.write(":blue[version : 00-00.CA.0323]")
 
