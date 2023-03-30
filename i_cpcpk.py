@@ -1,7 +1,5 @@
 import streamlit as st
 import numpy as np
-import plotly.express as px
-import plotly.figure_factory as ff
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
