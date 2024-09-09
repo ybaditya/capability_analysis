@@ -20,9 +20,16 @@ def Cpk(x, usl, lsl):
     return Cpk
 
 
-st.set_page_config(page_title='Capability Analysis')
-st.title('_i_-Capability Analysis')
-st.write(":blue[version : 00-00.CA.0323]")
+st.set_page_config(page_title='Capability Analysis Apps')
+st.title('Capability Analysis Apps')
+st.write(":blue[Created by : YB Aditya]")
+st.markdown("---")
+
+st.caption(
+    """Capability analysis is a statistical tool used to assess the ability of a process to produce outputs that meet specified requirements or specifications. 
+    A Cp or Cpk value greater than 1.33 is generally considered acceptable for a capable process. Values below 1 indicate that the process is not capable of meeting specification"""
+)
+
 
 #Upload XLSX File
 uploaded_file = st.file_uploader('Choose a XLSX file', type='xlsx')
