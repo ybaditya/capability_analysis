@@ -43,9 +43,6 @@ if uploaded_file:
     data_columns = st.multiselect("Columns", list(df.columns))
 
 
-st.sidebar.link_button("Link to Multi Apps & Tools", "https://multiappsandtools.web.app/")
-st.sidebar.markdown("---")
-
 st.sidebar.header('Input Capability Parameters :')
 
 cp_ok = st.sidebar.number_input('Input Cp Standard:',value=1.33)
